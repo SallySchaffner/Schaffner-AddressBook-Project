@@ -15,7 +15,7 @@ int main()
 	addressType address("123 South Street", "Newport News", "VA", 23664);
 	address.print();
 	cout << endl;
-	/*cout << "Testing invalid state (Virginia)... " << endl;
+	cout << "Testing invalid state (Virginia)... " << endl;
 	address.setState("Virginia");
 	address.print();
 	cout << endl;
@@ -30,5 +30,5 @@ int main()
 	address.setZipcode(23669);
 	address.print();
 	cout << endl;
-	*/
+	
 }

@@ -30,7 +30,12 @@ public:
 
 	void setAddress(string add) { address = add;  }
 
+	void setCity(string cit) { city = cit; }
+
 	string getState() { return state; }
+	int getZipcode() { return zipcode; }
+	string getAddress() { return address;  }
+	string getCity() { return city; }
 
 
 };
